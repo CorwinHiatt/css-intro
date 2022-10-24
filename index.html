@@ -17,9 +17,21 @@
     body{
         background-color: rgb(224, 164, 184);
     }
+    #contact{
+        background-color: rgb(161, 240, 227);
+        color: aliceblue;
+    }
     p{
         color: blue;
     }
+    /* class selector */
+    .my-ps{
+        background-color: rgb(71, 246, 246);
+    }
+        .my-width{
+            width: 100px;
+        }
+
     li{
         color: hotpink;
     }
@@ -28,6 +40,7 @@
 
 
     }
+    /* child selector */
    footer > h3{
         background-color: rgba(225, 199, 166, 0.635);
     }
@@ -49,10 +62,10 @@
             </ul>
         </nav>
     </header>
-    <p>footer>ul>li*3 amet consectetur adipisicing elit. Numquam, iusto. Incidunt quae excepturi molestias quasi
+    <p class="my-ps">footer>ul>li*3 amet consectetur adipisicing elit. Numquam, iusto. Incidunt quae excepturi molestias quasi
         delectus, praesentium earum itaque ducimus eligendi pariatur quos id nemo dolores sunt cumque modi cupiditate?
     </p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae rem at, labore quasi saepe repudiandae commodi ut
+    <p class="my-ps my-width">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae rem at, labore quasi saepe repudiandae commodi ut
         ea assumenda, consectetur impedit modi eius similique non tenetur voluptas quis, minus excepturi?
         Optio laboriosam nulla incidunt, dolore nesciunt placeat cupiditate libero doloribus alias, reiciendis sapiente
         perferendis nostrum? Iusto vitae at perspiciatis repellendus in veritatis possimus quasi odio, nemo illo. Fugit,
@@ -71,7 +84,7 @@
             <ul>
                 <li>About</li>
                 <li>Services</li>
-                <li>Contact</li>
+                <li id="contact">Contact</li>
             </ul>
         </footer>
 </body>
