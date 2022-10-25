@@ -39,6 +39,10 @@
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 10px;
 }
+#my-boy {
+    height: 45%;
+    
+}
 img {
     width: 95%;
     transition: .3s;
@@ -46,6 +50,8 @@ img {
 img:hover{
     border-radius: 1000px;
 }
+
+
 
 @media only screen and (max-width:821px) {
     .card-container{
