@@ -1,0 +1,34 @@
+.main-flex-container{
+    border-style: solid;
+    border-color: red;
+    border-width: 3mm;
+    display: flex;
+    flex-direction: column;
+
+}
+.hero-container{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 3mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content-container{
+    border-style: solid;
+    border-color: rgb(62, 189, 111);
+    border-width: 3mm;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card-container{
+    border-style: solid;
+    border-color: purple;
+    border-width: 3mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
