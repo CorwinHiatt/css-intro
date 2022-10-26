@@ -1,6 +1,7 @@
 .main-flex-container{
+    background-color: blanchedalmond;
     border-style: solid;
-    border-color: red;
+    border-color: rgb(76, 75, 75);
     border-width: 3mm;
     display: flex;
     flex-direction: column;
@@ -8,17 +9,23 @@
 
 }
 .hero-container{
+    background-color: beige;
     border-style: solid;
-    border-color: aqua;
+    border-color: rgba(226, 189, 25, 0.586);
     border-width: 3mm;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 0 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+
 }
 #content-container{
+    background-color: beige;
     border-style: solid;
-    border-color: rgb(62, 189, 111);
+    border-color: rgb(171, 170, 112);
     border-width: 3mm;
     display: flex;
     flex-wrap: wrap;
